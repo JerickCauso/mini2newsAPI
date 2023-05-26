@@ -13,7 +13,7 @@
   </head>
   <body>
     <nav
-      class="border-gray-200 bg-gray-50 dark:bg-gray-800 dark:border-gray-700 sticky top-0"
+      class="border-gray-200 bg-gray-50 dark:bg-gray-800 dark:border-gray-700 sticky top-0 z-10"
     >
       <div
         class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
@@ -150,108 +150,289 @@
       </div>
     </nav>
 
-    <!-- <form>
-      <div class="flex">
-        <label
-          for="search-dropdown"
-          class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"
-          >Your Email</label
+    <hero>
+      <!-- Container for demo purpose -->
+      <div class="container my-24 px-6 mx-auto">
+        <!-- Section: Design Block -->
+        <section class="mb-32 text-gray-800 text-center">
+          <h2 class="text-3xl font-bold mb-12 pb-4 text-center">Latest News</h2>
+
+          <div class="grid lg:grid-cols-3 gap-6 xl:gap-x-12">
+            <div class="mb-6 lg:mb-0">
+              <div class="relative block bg-white rounded-lg shadow-lg">
+                <div class="flex">
+                  <div
+                    class="shadow-lg rounded-lg mx-4 -mt-4"
+                    data-mdb-ripple="true"
+                    data-mdb-ripple-color="light"
+                  >
+                    <img
+                      src="https://mdbcdn.b-cdn.net/img/new/standard/city/024.webp"
+                      class="w-full"
+                    />
+                    <a href="#!">
+                      <div
+                        class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
+                        style="background-color: rgba(251, 251, 251, 0.15)"
+                      ></div>
+                    </a>
+                  </div>
+                </div>
+                <div class="p-6">
+                  <h5 class="font-bold text-lg mb-3">My paradise</h5>
+                  <p class="text-gray-500 mb-4">
+                    <small
+                      >Published <u>13.01.2022</u> by
+                      <a href="" class="text-gray-900">Anna Maria Doe</a></small
+                    >
+                  </p>
+                  <p class="mb-4 pb-2">
+                    Ut pretium ultricies dignissim. Sed sit amet mi eget urna
+                    placerat vulputate. Ut vulputate est non quam dignissim
+                    elementum. Donec a ullamcorper diam.
+                  </p>
+                  <a
+                    href="#!"
+                    data-mdb-ripple="true"
+                    data-mdb-ripple-color="light"
+                    class="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                    >Read more</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-6 lg:mb-0">
+              <div class="relative block bg-white rounded-lg shadow-lg">
+                <div class="flex">
+                  <div
+                    class="shadow-lg rounded-lg mx-4 -mt-4"
+                    data-mdb-ripple="true"
+                    data-mdb-ripple-color="light"
+                  >
+                    <img
+                      src="https://mdbcdn.b-cdn.net/img/new/standard/city/031.webp"
+                      class="w-full"
+                    />
+                    <a href="#!">
+                      <div
+                        class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
+                        style="background-color: rgba(251, 251, 251, 0.15)"
+                      ></div>
+                    </a>
+                  </div>
+                </div>
+                <div class="p-6">
+                  <h5 class="font-bold text-lg mb-3">Travel to Italy</h5>
+                  <p class="text-gray-500 mb-4">
+                    <small
+                      >Published <u>12.01.2022</u> by
+                      <a href="" class="text-gray-900">Halley Frank</a></small
+                    >
+                  </p>
+                  <p class="mb-4 pb-2">
+                    Suspendisse in volutpat massa. Nulla facilisi. Sed aliquet
+                    diam orci, nec ornare metus semper sed. Integer volutpat
+                    ornare erat sit amet rutrum.
+                  </p>
+                  <a
+                    href="#!"
+                    data-mdb-ripple="true"
+                    data-mdb-ripple-color="light"
+                    class="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                    >Read more</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-0">
+              <div class="relative block bg-white rounded-lg shadow-lg">
+                <div class="flex">
+                  <div
+                    class="shadow-lg rounded-lg mx-4 -mt-4"
+                    data-mdb-ripple="true"
+                    data-mdb-ripple-color="light"
+                  >
+                    <img
+                      src="https://mdbcdn.b-cdn.net/img/new/standard/city/081.webp"
+                      class="w-full"
+                    />
+                    <a href="#!">
+                      <div
+                        class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"
+                        style="background-color: rgba(251, 251, 251, 0.15)"
+                      ></div>
+                    </a>
+                  </div>
+                </div>
+                <div class="p-6">
+                  <h5 class="font-bold text-lg mb-3">Chasing the sun</h5>
+                  <p class="text-gray-500 mb-4">
+                    <small
+                      >Published <u>10.01.2022</u> by
+                      <a href="" class="text-gray-900">Joe Svan</a></small
+                    >
+                  </p>
+                  <p class="mb-4 pb-2">
+                    Curabitur tristique, mi a mollis sagittis, metus felis
+                    mattis arcu, non vehicula nisl dui quis diam. Mauris ut
+                    risus eget massa volutpat feugiat. Donec.
+                  </p>
+                  <a
+                    href="#!"
+                    data-mdb-ripple="true"
+                    data-mdb-ripple-color="light"
+                    class="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"
+                    >Read more</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Section: Design Block -->
+      </div>
+      <!-- Container for demo purpose -->
+    </hero>
+
+    <section class="bg-white dark:bg-gray-900 pt-10">
+      <div class="container px-6 py-10 mx-auto">
+        <h1
+          class="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white"
         >
-        <button
-          id="dropdown-button"
-          data-dropdown-toggle="dropdown"
-          class="flex-shrink-0 z-10 inline-flex items-center py-2.5 px-4 text-sm font-medium text-center text-gray-900 bg-gray-100 border border-gray-300 rounded-l-lg hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700 dark:text-white dark:border-gray-600"
-          type="button"
-        >
-          All categories
-          <svg
-            aria-hidden="true"
-            class="w-4 h-4 ml-1"
-            fill="currentColor"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-              clip-rule="evenodd"
-            ></path>
-          </svg>
-        </button>
-        <div
-          id="dropdown"
-          class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700"
-        >
-          <ul
-            class="py-2 text-sm text-gray-700 dark:text-gray-200"
-            aria-labelledby="dropdown-button"
-          >
-            <li>
-              <button
-                type="button"
-                class="inline-flex w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+          From the blog
+        </h1>
+
+        <div class="grid grid-cols-1 gap-8 mt-8 md:mt-16 md:grid-cols-2">
+          <div class="lg:flex">
+            <img
+              class="object-cover w-full h-56 rounded-lg lg:w-64"
+              src="https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+              alt=""
+            />
+
+            <div class="flex flex-col justify-between py-6 lg:mx-6">
+              <a
+                href="#"
+                class="text-xl font-semibold text-gray-800 hover:underline dark:text-white"
               >
-                General
-              </button>
-            </li>
-            <li>
-              <button
-                type="button"
-                class="inline-flex w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                How to use sticky note for problem solving
+              </a>
+
+              <span class="text-sm text-gray-500 dark:text-gray-300"
+                >On: 20 October 2019</span
               >
-                World
-              </button>
-            </li>
-            <li>
-              <button
-                type="button"
-                class="inline-flex w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+            </div>
+          </div>
+
+          <div class="lg:flex">
+            <img
+              class="object-cover w-full h-56 rounded-lg lg:w-64"
+              src="https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+              alt=""
+            />
+
+            <div class="flex flex-col justify-between py-6 lg:mx-6">
+              <a
+                href="#"
+                class="text-xl font-semibold text-gray-800 hover:underline dark:text-white"
               >
-                Nation
-              </button>
-            </li>
-            <li>
-              <button
-                type="button"
-                class="inline-flex w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                How to use sticky note for problem solving
+              </a>
+
+              <span class="text-sm text-gray-500 dark:text-gray-300"
+                >On: 20 October 2019</span
               >
-                Business
-              </button>
-            </li>
-          </ul>
-        </div>
-        <div class="relative w-full">
-          <input
-            type="search"
-            id="search-dropdown"
-            class="block p-2.5 w-full z-20 text-sm text-gray-900 bg-gray-50 rounded-r-lg border-l-gray-50 border-l-2 border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-l-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:border-blue-500"
-            placeholder="Search Mockups, Logos, Design Templates..."
-            required
-          />
-          <button
-            type="submit"
-            class="absolute top-0 right-0 p-2.5 text-sm font-medium text-white bg-blue-700 rounded-r-lg border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-          >
-            <svg
-              aria-hidden="true"
-              class="w-5 h-5"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-              ></path>
-            </svg>
-            <span class="sr-only">Search</span>
-          </button>
+            </div>
+          </div>
+
+          <div class="lg:flex">
+            <img
+              class="object-cover w-full h-56 rounded-lg lg:w-64"
+              src="https://images.unsplash.com/photo-1544654803-b69140b285a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+              alt=""
+            />
+
+            <div class="flex flex-col justify-between py-6 lg:mx-6">
+              <a
+                href="#"
+                class="text-xl font-semibold text-gray-800 hover:underline dark:text-white"
+              >
+                Morning routine to boost your mood
+              </a>
+
+              <span class="text-sm text-gray-500 dark:text-gray-300"
+                >On: 25 November 2020</span
+              >
+            </div>
+          </div>
+
+          <div class="lg:flex">
+            <img
+              class="object-cover w-full h-56 rounded-lg lg:w-64"
+              src="https://images.unsplash.com/photo-1530099486328-e021101a494a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1547&q=80"
+              alt=""
+            />
+
+            <div class="flex flex-col justify-between py-6 lg:mx-6">
+              <a
+                href="#"
+                class="text-xl font-semibold text-gray-800 hover:underline dark:text-white"
+              >
+                All the features you want to know
+              </a>
+
+              <span class="text-sm text-gray-500 dark:text-gray-300"
+                >On: 30 September 2020</span
+              >
+            </div>
+          </div>
+
+          <div class="lg:flex">
+            <img
+              class="object-cover w-full h-56 rounded-lg lg:w-64"
+              src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1484&q=80"
+              alt=""
+            />
+
+            <div class="flex flex-col justify-between py-6 lg:mx-6">
+              <a
+                href="#"
+                class="text-xl font-semibold text-gray-800 hover:underline dark:text-white"
+              >
+                Minimal workspace for your inspirations
+              </a>
+
+              <span class="text-sm text-gray-500 dark:text-gray-300"
+                >On: 13 October 2019</span
+              >
+            </div>
+          </div>
+
+          <div class="lg:flex">
+            <img
+              class="object-cover w-full h-56 rounded-lg lg:w-64"
+              src="https://images.unsplash.com/photo-1624996379697-f01d168b1a52?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+              alt=""
+            />
+
+            <div class="flex flex-col justify-between py-6 lg:mx-6">
+              <a
+                href="#"
+                class="text-xl font-semibold text-gray-800 hover:underline dark:text-white"
+              >
+                What do you want to know about Blockchane
+              </a>
+
+              <span class="text-sm text-gray-500 dark:text-gray-300"
+                >On: 20 October 2019</span
+              >
+            </div>
+          </div>
         </div>
       </div>
-    </form> -->
+    </section>
 
     <section class="bg-white dark:bg-gray-900">
       <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16">
@@ -421,109 +602,6 @@
         </div>
       </div>
     </section>
-
-    <div
-      id="custom-controls-gallery"
-      class="relative w-full"
-      data-carousel="slide"
-    >
-      <!-- Carousel wrapper -->
-      <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
-        <!-- Item 1 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img
-            src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg"
-            class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-            alt=""
-          />
-        </div>
-        <!-- Item 2 -->
-        <div
-          class="hidden duration-700 ease-in-out"
-          data-carousel-item="active"
-        >
-          <img
-            src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg"
-            class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-            alt=""
-          />
-        </div>
-        <!-- Item 3 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img
-            src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg"
-            class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-            alt=""
-          />
-        </div>
-        <!-- Item 4 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img
-            src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg"
-            class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-            alt=""
-          />
-        </div>
-        <!-- Item 5 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img
-            src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg"
-            class="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-            alt=""
-          />
-        </div>
-      </div>
-      <div class="flex justify-center items-center pt-4">
-        <button
-          type="button"
-          class="flex justify-center items-center mr-4 h-full cursor-pointer group focus:outline-none"
-          data-carousel-prev
-        >
-          <span
-            class="text-gray-400 hover:text-gray-900 dark:hover:text-white group-focus:text-gray-900 dark:group-focus:text-white"
-          >
-            <svg
-              aria-hidden="true"
-              class="w-6 h-6"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M7.707 14.707a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l2.293 2.293a1 1 0 010 1.414z"
-                clip-rule="evenodd"
-              ></path>
-            </svg>
-            <span class="sr-only">Previous</span>
-          </span>
-        </button>
-        <button
-          type="button"
-          class="flex justify-center items-center h-full cursor-pointer group focus:outline-none"
-          data-carousel-next
-        >
-          <span
-            class="text-gray-400 hover:text-gray-900 dark:hover:text-white group-focus:text-gray-900 dark:group-focus:text-white"
-          >
-            <svg
-              aria-hidden="true"
-              class="w-6 h-6"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                clip-rule="evenodd"
-              ></path>
-            </svg>
-            <span class="sr-only">Next</span>
-          </span>
-        </button>
-      </div>
-    </div>
 
     <footer class="bg-white rounded-lg shadow m-4 dark:bg-gray-800">
       <div
